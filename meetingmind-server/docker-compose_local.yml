@@ -1,0 +1,24 @@
+version: '3'
+services:
+  xiaozhi-esp32-server-local:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: xiaozhi-esp32-server-local
+    restart: always
+    networks:
+      - default
+    ports:
+      # ws服务端
+      - "8000:8000"
+    security_opt:
+      - seccomp:unconfined
+    environment:
+      - TZ=Asia/Shanghai
+    volumes:
+      # 配置文件目录
+      - ./data:/opt/xiaozhi-esp32-server/data
+      # 模型文件挂接，很重要
+      - ./models/SenseVoiceSmall/model.pt:/opt/xiaozhi-esp32-server/models/SenseVoiceSmall/model.pt
+networks:
+  default:
