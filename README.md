@@ -4,12 +4,8 @@
 
 </p>
 
-想看使用效果？请猛戳视频 🎥
-<a href="showcase.mp4" target="_blank">
-         <picture>
-           <img alt="演示" src="docs/images/demo1.png" />
-         </picture>
-        </a>
+演示视频 🎥
+[![观看视频](https://img.youtube.com/vi/Pss1HlMux0w/maxresdefault.jpg)](https://youtu.be/Pss1HlMux0w)
 
 ---
 ## 功能清单 ✨
@@ -25,15 +21,14 @@
 | LLM 模块 | 支持灵活切换 LLM 模块，默认使用 ChatGLMLLM，也可选用阿里百炼、DeepSeek、Ollama 等接口 |
 | TTS 模块 | 支持 EdgeTTS（默认）、火山引擎豆包 TTS 等多种 TTS 接口，满足语音合成需求 |
 | 记忆功能 | 支持超长记忆、本地总结记忆、内存记忆 |
+| 企业微信 | 支持文件管理，会议总结
+| 智能提醒 | 支持硬件端设置闹钟提醒事项
 | 前端管理页面 | 提供Web管理界面，支持Agent管理、用户管理、系统配置等功能 |
 
 ### 正在开发 🚧
 拟人化界面 🎥
-<a href="showcase2.mp4" target="_blank">
-         <picture>
-           <img alt="拟人化界面" src="docs/images/demo1.png" />
-         </picture>
-        </a>
+[![观看视频](https://img.youtube.com/vi/SN6rm9pQQCM/maxresdefault.jpg)](https://youtube.com/shorts/SN6rm9pQQCM)
+
 ---
 
 ### LLM 语言模型
